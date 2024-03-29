@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -34,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
         actionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "test", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, AddActivity.class);
+                startActivity(intent);
             }
         });
 

@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CoAnh_B12_SQLite"
         tools:targetApi="31">
         <activity
+            android:name=".AddActivity"
+            android:exported="false" />
+        <activity
             android:name=".UpdateDeleteActivity"
             android:exported="false" />
         <activity

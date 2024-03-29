@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UpdateDeleteActivity"
+    tools:context=".AddActivity"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
@@ -58,24 +58,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="3"
+        android:weightSum="2"
         android:layout_marginTop="20dp">
         <Button
-            android:id="@+id/btSaveUpdate"
+            android:id="@+id/btSaveAdd"
             android:layout_weight="1"
             android:text="Save"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="15dp"
-            android:background="@color/yellow"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
-        <Button
-            android:id="@+id/btRemove"
-            android:layout_weight="1"
-            android:text="Remove"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="30dp"
             android:background="@color/yellow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -90,6 +80,5 @@
             android:layout_height="wrap_content"/>
 
     </LinearLayout>
-
 
 </LinearLayout>
