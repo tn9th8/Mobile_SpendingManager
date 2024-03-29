@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CoAnh_B12_SQLite</string>
+    <string-array name="category">
+        <item>Mua sam</item>
+        <item>An uong</item>
+        <item>An hang</item>
+        <item>Tien nha</item>
+        <item>Dien nuoc</item>
+        <item>Di lai</item>
+        <item>An hang</item>
+    </string-array>
+</resources>
