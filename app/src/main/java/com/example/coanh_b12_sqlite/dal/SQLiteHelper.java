@@ -80,7 +80,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
         String whereClause = "date like ?";
         String[] whereArgs = {date};
         SQLiteDatabase st = getReadableDatabase();
-        Cursor rs = st.query("items", null, whereClause, whereArgs,
+        Cursor rs = st.query("item", null, whereClause, whereArgs,
                 null, null, null);
         while (rs != null && rs.moveToNext()) {
             int id = rs.getInt(0);

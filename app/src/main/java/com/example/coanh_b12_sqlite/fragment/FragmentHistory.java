@@ -43,10 +43,10 @@ public class FragmentHistory extends Fragment implements RecycleViewAdapter.Item
 
         List<Item> list = db.getAll();
         adapter.setList(list);
-        recyclerView.setAdapter(adapter);
 
         LinearLayoutManager manager = new LinearLayoutManager(getContext(), RecyclerView.VERTICAL, false);
         recyclerView.setLayoutManager(manager);
+        recyclerView.setAdapter(adapter);
         adapter.setItemListener(this);
     }
 
